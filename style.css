@@ -1,14 +1,21 @@
 body{
     margin: 0;
     padding: 0;
-    
-
+}
+*
+{
+    scroll-behavior: smooth;
 }
 .navbar
 {
     display: flex;
     box-shadow: 5px 5px 10px 1px gray;
     height: 70px;
+    position: sticky;
+    top:0;
+    background-color:white;
+   
+   
 }
 .navbarlinks
 {
