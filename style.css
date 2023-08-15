@@ -143,3 +143,15 @@ body{
     border-radius: 10px;
 
 }
+.main-card-container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skills-card
+{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+   margin-bottom: 30px; 
+}
