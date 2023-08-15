@@ -131,3 +131,15 @@ body{
 {
     color:grey;
 }
+.about-me
+{
+    border: 2px solid black;
+    height: 80px;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: 	 #999999;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+
+}
