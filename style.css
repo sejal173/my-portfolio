@@ -112,8 +112,8 @@ body{
 .card
 {
     border: 2px solid black;
-    height: 450px;
-    width: 450px;
+    height: 401px;
+    width: 449px;
     margin-bottom: 50px; 
     border-radius: 10px;
 }
@@ -124,8 +124,13 @@ body{
 .project-img
 {
     /* height: 300px; */
-    width: 450px;
+    width: 420px;
+    border: 2px solid grey;
+    margin-top: 10px;
     border-radius: 10px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
 .color-grey
 {
@@ -134,13 +139,15 @@ body{
 .about-me
 {
     border: 2px solid black;
-    height: 80px;
+    height: 70px;
     margin-left: 90px;
     margin-right: 90px;
     background-color: 	 #999999;
     padding-top: 20px;
     padding-left: 20px;
     border-radius: 10px;
+    font-size:23px;
+    font-weight: 200;
 
 }
 .main-card-container
@@ -151,7 +158,30 @@ body{
 .skills-card
 {
     border: 2px solid black;
-    height: 200px;
-    width: 200px;
-   margin-bottom: 30px; 
+    /* height: 200px; */
+    width: 150px;
+    padding: 15px ;
+   margin-bottom: 50px; 
+   background-color: #99ccff;
+   border-radius: 5px;
+    box-shadow: 10px 10px 10px 1px grey;
 }
+
+.skills-logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 25px;
+    padding-left: 37px;
+    padding-bottom: 25px; */
+    height: 100px;
+}
+
+ @media screen and (min-width: 360px) and (max-width: 740px) {
+
+   
+    
+
+
+} 
