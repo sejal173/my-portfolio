@@ -180,7 +180,94 @@ body{
 
  @media screen and (min-width: 360px) and (max-width: 740px) {
 
-   
+    .name-heading {
+        margin-left: 29px;
+        font-size: 19px;
+        font-weight: 900;
+    }
+    .navbar {
+        display: flex;
+        box-shadow: 5px 5px 10px 1px gray;
+        height: 70px;
+        position: sticky;
+        top: 0;
+        background-color: white;
+        width: 450px;
+    }
+
+    .display
+    {
+        flex-wrap: wrap;
+    }
+    .cards-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .nav {
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+    .portfolio-img {
+        height: 388px;
+        /* margin-left: -9px; */
+        padding-top: 5px;
+    }
+    .display {
+        display: flex;
+        margin-left: -98px;
+        margin-top: -114px;
+    }
+    .btn {
+        text-decoration: none;
+        background-color: black;
+        padding: 8px 10px 8px 10px;
+        border-radius: 5px;
+        font-size: 6px;
+        margin-left: 1px;
+    }
+    
+    style attribute {
+        font-size: 9px;
+        padding-left: 3px;
+    }
+    .span {
+        display: inline-block;
+        font-size: 25px;
+        font-weight: bold;
+        padding-left: 1px;
+    }
+    .Mern-Developer {
+        display: inline-block;
+        font-size: 26px;
+    }
+    .cards-container {
+        /* display: flex; */
+        /* justify-content: space-evenly; */
+        /* display: block; */
+        margin-left: 85px;
+    }
+
+    .about-me {
+        border: 2px solid black;
+        height: 249px;
+        margin-left: 35px;
+        /* margin-right: -9px; */
+        background-color: #999999;
+        padding-top: 20px;
+        padding-left: 20px;
+        border-radius: 10px;
+        font-size: 29px;
+        font-weight: 200;
+        width: 369px;
+    }
+    .main-card-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+      
+    }
     
 
 
